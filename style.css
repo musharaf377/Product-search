@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+#product-area{
+    padding: 100px;
+}
+
+.product-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+}
+
+.product-card{
+    padding: 20px;
+    border:1px solid #ddd;
+    border-radius: 20px;
+}
+
+.product-card img{
+    width: 100%;
+}
